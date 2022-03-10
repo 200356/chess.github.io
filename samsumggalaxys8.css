@@ -1,0 +1,16 @@
+@media only screen and (max-width: 361px) {
+    .board {
+        height: 340px;
+        width: 340px;
+    }
+
+    .flip-box {
+        height: 340px;
+        width: 340px;
+    }
+
+    .flip-box-front {
+        height: 340px;
+        width: 340px;
+    }
+}

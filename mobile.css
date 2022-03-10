@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1000px) {
+    .board {
+        height: 370px;
+        width: 370px;
+    }
+
+    .flip-box {
+        height: 370px;
+        width: 370px;
+    }
+
+    .flip-box-front {
+        height: 370px;
+        width: 370px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .last {
+        padding-top: 4px;
+    }
+
+    .play {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 20rem !important;
+        height: 19rem;
+    }
+
+    .second {
+        background: url(assets/second.jpg);
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        height: 50px;
+    }
+
+    .tagline {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .card {
+        margin-bottom: 0px;
+    }
+
+    .card3 {
+        margin-bottom: 30px;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .deks {
+        display: none;
+    }
+
+    .head {
+        font-size: 90px;
+        width: 70%;
+    }
+
+    .board {
+        height: 345px;
+        width: 345px;
+    }
+
+    .flip-box {
+        height: 345px;
+        width: 345px;
+    }
+
+    .flip-box-front {
+        height: 345px;
+        width: 345px;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .piece {
+        height: 160px;
+    }
+
+    .first3 {
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    .first {
+        padding-bottom: 20px;
+    }
+
+    .first2 {
+        margin-top: 80px;
+    }
+
+    .head2 {
+        width: 80%;
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .head {
+        width: 100%;
+    }
+}

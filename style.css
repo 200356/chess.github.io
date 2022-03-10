@@ -1,0 +1,327 @@
+.logo {
+    height: 60px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.363) !important;
+    color: #593426 !important;
+    font-family: 'Cabin',
+        sans-serif;
+    font-size: 18px;
+}
+
+.piece {
+    height: 400px;
+    opacity: 0.8;
+}
+
+.first {
+    background: linear-gradient(to right, rgba(121, 120, 120, 0.295), rgba(170, 169, 169, 0.349)),
+        url(assets/chess-playing-hand.jpeg);
+    padding-bottom: 67px;
+
+}
+
+.first1 {
+    text-align: center;
+}
+
+.first2 {
+    margin-top: 155px;
+}
+
+.first3 {
+    padding-left: 40px;
+    margin-top: 120px;
+}
+
+.head {
+    font-size: 140px;
+    font-weight: 900;
+    color: white;
+}
+
+.tagline {
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Cinzel',
+        serif;
+}
+
+.play {
+    background-color: black;
+    border: 2px solid white;
+    height: 70px;
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 40px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Patua One',
+        cursive;
+    transition: 1s;
+}
+
+.play:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+    transition: 1s;
+    height: 18rem;
+    width: 19rem !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+
+
+.card1 {
+    background: linear-gradient(to bottom, #45E9B9, #0887C5);
+}
+
+.card2 {
+    background: linear-gradient(to bottom, #850FFF, #46B2FD);
+}
+
+.card3 {
+    background: linear-gradient(to bottom, #FF5C21, #FFB063);
+}
+
+.icon {
+    font-size: 80px;
+}
+
+.board {
+    height: 500px;
+    width: 500px;
+}
+
+.second {
+    background: url(assets/third.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third {
+    text-align: center;
+    padding-bottom: 30px;
+    /* background: linear-gradient(to bottom, #45E9B9, #0887C5); */
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.466), rgba(170, 169, 169, 0.315)),
+        url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.piece2 {
+    height: 300px;
+}
+
+.pieces {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.flip-box {
+    background-color: transparent;
+    height: 500px;
+    width: 500px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    background-color: #bbb;
+    height: 500px;
+    width: 500px;
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    background: linear-gradient(to bottom, black, white);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.head2 {
+    width: 60%;
+    font-family: 'Cinzel',
+        serif;
+    color: white;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.foot {
+    /* margin-top: 40px;
+    margin-bottom: 50px; */
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.footico {
+    font-size: 30px;
+    color: white;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.ico {
+    margin-right: 12px;
+}
+
+.tc {
+    color: white;
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.last {
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.paytm {
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+
+.contact2 {
+    margin-top: 10px;
+}
+
+.contact {
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: azure;
+    text-decoration-line: none;
+}
+
+a:active {
+    color: azure;
+    text-decoration-line: none;
+}
+
+a:link {
+    color: azure;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: azure;
+    text-decoration-line: none;
+}
+
+.mob {
+    display: none;
+}
+
+.deks {
+    display: block;
+}
+
+.typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em;
+    /* Adjust as needed */
+    animation:
+        typing 2.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.third {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

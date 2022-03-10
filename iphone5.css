@@ -1,0 +1,30 @@
+@media only screen and (max-width: 321px) {
+    .board {
+        height: 280px;
+        width: 280px;
+    }
+
+    .flip-box {
+        height: 280px;
+        width: 280px;
+    }
+
+    .flip-box-front {
+        height: 280px;
+        width: 280px;
+    }
+
+    .card {
+        width: 16rem !important;
+        height: 17rem;
+    }
+
+    .card-body {
+        margin-top: 0px;
+    }
+
+    .head {
+        font-size: 80px;
+    }
+
+}
